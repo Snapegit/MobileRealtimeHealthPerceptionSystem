@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.design.appproject.widget.MyLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.design.appproject.widget.MyFlexBoxLayout
+        android:id="@+id/news_top_fl"
+        app:flexWrap="wrap"
+        style="@style/index_news_five_top_box_style">
+        <com.design.appproject.widget.MyImageView
+        style="@style/index_news_five_top_img_style"
+        android:id="@+id/news_iv" />
+    <com.design.appproject.widget.MyTextView
+        android:id="@+id/news_top_title_tv"
+        style="@style/index_news_five_top_title_style"/>
+    </com.design.appproject.widget.MyFlexBoxLayout>
+    <com.design.appproject.widget.MyFlexBoxLayout
+        android:id="@+id/news_fl"
+        app:flexWrap="wrap"
+        style="@style/index_news_five_item_box_style">
+    <com.design.appproject.widget.MyTextView
+        android:id="@+id/news_title_tv"
+        style="@style/index_news_five_item_title_style"/>
+    </com.design.appproject.widget.MyFlexBoxLayout>
+</com.design.appproject.widget.MyLinearLayout>

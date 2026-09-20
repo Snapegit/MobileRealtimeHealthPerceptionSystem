@@ -1,0 +1,193 @@
+{
+	"pages": [{
+		"path": "pages/index/index",
+		"style": {
+			"navigationBarBackgroundColor": "#FFFFFF",
+			"navigationBarTextStyle": "black",
+			"navigationBarTitleText": "首页"
+		}
+	},{
+		"path": "pages/login/login",
+		"style": {
+			"navigationBarBackgroundColor": "#FFFFFF",
+			"navigationBarTextStyle": "black",
+			"navigationBarTitleText": "登录"
+		}
+	}, {
+		"path": "pages/register/register",
+		"style": {
+			"navigationBarBackgroundColor": "#FFFFFF",
+			"navigationBarTextStyle": "black",
+			"navigationBarTitleText": "注册"
+		}
+	}, {
+		"path": "pages/forget/forget",
+		"style": {
+			"navigationBarBackgroundColor": "#FFFFFF",
+			"navigationBarTextStyle": "black",
+			"navigationBarTitleText": "忘记密码"
+		}
+	}, {
+		"path": "pages/center/center",
+		"style": {
+			"navigationBarBackgroundColor": "#FFFFFF",
+			"navigationBarTextStyle": "black",
+			"navigationBarTitleText": "我的"
+		}
+	}, {
+		"path": "pages/user-info/user-info",
+		"style": {
+			"navigationBarBackgroundColor": "#FFFFFF",
+			"navigationBarTextStyle": "black",
+			"navigationBarTitleText": "用户信息"
+		}
+	}
+	,{
+		"path": "pages/yonghu/list",
+		"style": {
+			"navigationBarBackgroundColor": "#FFFFFF",
+			"navigationBarTextStyle": "black"
+		}
+	},{
+		"path": "pages/yonghu/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#FFFFFF",
+			"navigationBarTextStyle": "black"
+		}
+	},{
+		"path": "pages/yonghu/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#FFFFFF",
+			"navigationBarTextStyle": "black"
+		}
+	}
+	,{
+		"path": "pages/tongzhijingbao/list",
+		"style": {
+			"navigationBarBackgroundColor": "#FFFFFF",
+			"navigationBarTextStyle": "black"
+		}
+	},{
+		"path": "pages/tongzhijingbao/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#FFFFFF",
+			"navigationBarTextStyle": "black"
+		}
+	},{
+		"path": "pages/tongzhijingbao/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#FFFFFF",
+			"navigationBarTextStyle": "black"
+		}
+	}
+	,{
+		"path": "pages/jiankangxinxi/list",
+		"style": {
+			"navigationBarBackgroundColor": "#FFFFFF",
+			"navigationBarTextStyle": "black"
+		}
+	},{
+		"path": "pages/jiankangxinxi/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#FFFFFF",
+			"navigationBarTextStyle": "black"
+		}
+	},{
+		"path": "pages/jiankangxinxi/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#FFFFFF",
+			"navigationBarTextStyle": "black"
+		}
+	}
+	,{
+		"path": "pages/jiankangfenxi/list",
+		"style": {
+			"navigationBarBackgroundColor": "#FFFFFF",
+			"navigationBarTextStyle": "black"
+		}
+	},{
+		"path": "pages/jiankangfenxi/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#FFFFFF",
+			"navigationBarTextStyle": "black"
+		}
+	},{
+		"path": "pages/jiankangfenxi/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#FFFFFF",
+			"navigationBarTextStyle": "black"
+		}
+	}
+	,{
+		"path": "pages/gexinghuajianyi/list",
+		"style": {
+			"navigationBarBackgroundColor": "#FFFFFF",
+			"navigationBarTextStyle": "black"
+		}
+	},{
+		"path": "pages/gexinghuajianyi/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#FFFFFF",
+			"navigationBarTextStyle": "black"
+		}
+	},{
+		"path": "pages/gexinghuajianyi/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#FFFFFF",
+			"navigationBarTextStyle": "black"
+		}
+	}
+	, {
+		"path": "pages/news-list/news-list",
+		"style": {
+			"navigationBarBackgroundColor": "#FFFFFF",
+			"navigationBarTextStyle": "black",
+			"navigationBarTitleText": "健康资讯"
+		}
+	}
+	, {
+		"path": "pages/news-detail/news-detail",
+		"style": {
+			"navigationBarBackgroundColor": "#FFFFFF",
+			"navigationBarTextStyle": "black",
+			"navigationBarTitleText": "健康资讯"
+		}
+	}
+    ,{
+        "path": "common/linkOthers/linkOthers",
+        "style": {
+			"navigationBarBackgroundColor": "#FFFFFF",
+			"navigationBarTextStyle": "black"
+        }
+    }
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "基于Android的实时健康感知系统",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#626262",
+		"selectedColor": "#FF746D",
+		"borderStyle": "white",
+		"backgroundColor": "#FFFFFF",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabs/1/index.png",
+				"selectedIconPath": "static/tabs/1/index1.png",
+				"text": "首页"
+			}
+			
+
+
+
+			,{
+				"pagePath": "pages/center/center",
+				"iconPath": "static/tabs/1/mine.png",
+				"selectedIconPath": "static/tabs/1/mine1.png",
+				"text": "我的"
+			}
+		]
+	}
+}
